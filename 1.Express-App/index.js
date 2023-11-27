@@ -4,14 +4,15 @@
 // 4. Create instance of Express (const app = express())
 // 5. Provide port (app.listen(5000, () => console.log("port 5000")))
 // 6. basic rout (app.get(path, callback))
+// 7. Install nodemon if you require
 
 import express from "express";
 const app = express();
-const port = 8000;
+const port = 3000;
 
 // 👇 Don't worry about this code
-app.use((req, res) => {
-  res.send("Hello World");
+app.get("/", (req, res) => {
+  res.send("Hello World !");
 });
 
 app.listen(port, () => console.log(`Server started on port : ${port}`));
