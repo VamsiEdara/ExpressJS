@@ -1,0 +1,12 @@
+http://localhost:3000/
+
+
+# POST https://postman-echo.com/post
+
+###
+
+GET http://localhost:3000/date
+
+###
+
+GET http://localhost:3000/html
