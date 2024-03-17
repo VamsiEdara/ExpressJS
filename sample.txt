@@ -1,0 +1,10 @@
+1. Create config.env file
+   sample data in that file :
+    # NODE_ENV=development
+    # PORT=3000
+    # DATABASE_LOCAL=mongodb://localhost:27017/natours
+    # USERNAME=vamsi
+2. npm i dotenv
+    const dotenv = require('dotenv');    
+    dotenv.config({ path: './config.env' });
+    const port = process.env.PORT || 3000;
