@@ -5,7 +5,13 @@ const port = 5000;
 // Install nodemon and add below line in package,json file
 // "scripts": {
 //   "start": "nodemon index.js"
+// } 
+// -----> npm start
+
+// "scripts": {
+//   "dev": "nodemon index.js"
 // }
+// -----> npm run dev
 
 // Routing refers to how an application’s endpoints (URIs) respond to client requests.
 
