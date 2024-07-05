@@ -7,6 +7,7 @@
 // 7. Install nodemon if you require
 
 import express from "express";
+// If you use import then update your package.json file with "type": "module"
 const app = express();
 const port = 3000;
 
